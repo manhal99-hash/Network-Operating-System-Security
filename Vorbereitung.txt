@@ -2,42 +2,42 @@ Kapitel 2 :
 
 Sicherheitsziele :
 
-Vertraulichkeit : gewährleistet dass kein Dritten die Nachrichten mitlesen kann
-Integrität : gewährleistet die Echtheit und genauigkeit der Informationen
-Verfügbarkeit : gewährleistet dass Benutzer jederzeit und auf Anfrage Informationen bereitgestellt werden
+Vertraulichkeit : gewÃ¤hrleistet dass kein Dritten die Nachrichten mitlesen kann
+IntegritÃ¤t : gewÃ¤hrleistet die Echtheit und genauigkeit der Informationen
+VerfÃ¼gbarkeit : gewÃ¤hrleistet dass Benutzer jederzeit und auf Anfrage Informationen bereitgestellt werden
 
-Kryptographie : ist die sicherer Kommunikationen zwischen zwei oder mehrer Entitäten 
-Verschlüsselung : Daten vor Dritten geheimhalten
+Kryptographie : ist die sicherer Kommunikationen zwischen zwei oder mehrer EntitÃ¤ten 
+VerschlÃ¼sselung : Daten vor Dritten geheimhalten
 
-Symmetrische Algorithm : hier wird ein idetischer Schlüssel zum vercshlüsseln und entschlüsseln verwendet
-Asymmetrische Algorithm : es werden zwei Schlüssel private key und public key verwendet
+Symmetrische Algorithm : hier wird ein idetischer SchlÃ¼ssel zum vercshlÃ¼sseln und entschlÃ¼sseln verwendet
+Asymmetrische Algorithm : es werden zwei SchlÃ¼ssel private key und public key verwendet
 
-Kommunikationen : ist die Übertragung von Daten
-Computernetzwerke : ist eine Sammlung von autonomen Computern, die in einem Netzwerk über eine Technologie verbunden sind.
-Nodes : knoten sind phyiskalische aktive Geräte bsp (host,client,server)
+Kommunikationen : ist die Ãœbertragung von Daten
+Computernetzwerke : ist eine Sammlung von autonomen Computern, die in einem Netzwerk Ã¼ber eine Technologie verbunden sind.
+Nodes : knoten sind phyiskalische aktive GerÃ¤te bsp (host,client,server)
 Site : eine sammlung von Nodes in einem Netzwerk bilden Site
 Client : kann eine Dienst von einem Server anfordern der diese Dientst bereitstellt
 Topologie : definiert die Struktur von einem Netzwerk, also wie die Nodes in einem Netzwerk miteineader verbunden und kommuntzieren
-Router : ist ein Knote und übertägt die Paktetn zwischen Netzwerkrn
-Switche : ist ein Knote in einem Netzwerk und leitet die Paktet zwischen Geräte weiter
+Router : ist ein Knote und Ã¼bertÃ¤gt die Paktetn zwischen Netzwerkrn
+Switche : ist ein Knote in einem Netzwerk und leitet die Paktet zwischen GerÃ¤te weiter
 
 ISO :
 
 1- Physical Layer :
 a- Umwandlung von phyiskalische Bits in einem ( elektrische Signale)
 2- Data Link Layer :
-a- Übertragung von Frames zwischen Geräte innerhalb der Netzwerk 
+a- Ãœbertragung von Frames zwischen GerÃ¤te innerhalb der Netzwerk 
 b- hier sind knoten die switches
 c- MAC Adressierung
 3- Network Layer :
-a- Übertragung von Paketen zwischen Netzwerken
+a- Ãœbertragung von Paketen zwischen Netzwerken
 b- Knoten hier sind die Router
 c- Routing
 4- Transport Layer :
 a- Ende zu Ende Adressieurng 
 b- Fehlererkennung
 
-Sniffing : ist eine passive Angriff, Sniffer schnüffelt die Pakete zwischen Sender und Empfänger und speichert für sich die wichtige pakete
+Sniffing : ist eine passive Angriff, Sniffer schnÃ¼ffelt die Pakete zwischen Sender und EmpfÃ¤nger und speichert fÃ¼r sich die wichtige pakete
 Scanning : 
 Host : ICMP, ARP
 Port : TCP, UDP
@@ -49,19 +49,19 @@ Kap.3
 
 Arten von Angriffen :
 
-1- Spoofing : Angreifer gibt sich als andere Entität aus, und benutzt seine Merkmale (ip,mac-adresse) um sich ein unrechtmäßigen Zugriff zu verschaffen
-2- MitM : Angreifer fängt die Kommunikationen zwischen zwei Entitäten und verändert die Nachricht.
-3- DOS : Mehr Verkehr auf die Bandbreite/Software/Betriebsystem erzeugen um die Nichtverfügbarkeit des Dienstes zu erreichen (DDOS mit Botnet).
+1- Spoofing : Angreifer gibt sich als andere EntitÃ¤t aus, und benutzt seine Merkmale (ip,mac-adresse) um sich ein unrechtmÃ¤ÃŸigen Zugriff zu verschaffen
+2- MitM : Angreifer fÃ¤ngt die Kommunikationen zwischen zwei EntitÃ¤ten und verÃ¤ndert die Nachricht.
+3- DOS : Mehr Verkehr auf die Bandbreite/Software/Betriebsystem erzeugen um die NichtverfÃ¼gbarkeit des Dienstes zu erreichen (DDOS mit Botnet).
 
 DOS-Angriffe :
 
-Angriff auf Bandbreite : mehr Verkehr auf Bandbreite erzeugen sodass keine Leigitim/Anfragen mehr möglich sind.
-Router : dann wird keine Leigitime Anfragen in/aus des Netzwerk mehr möglich
-Switch : wird keine Nachrichten zwischen Geräten innerhalb des Netz mehr möglich
+Angriff auf Bandbreite : mehr Verkehr auf Bandbreite erzeugen sodass keine Leigitim/Anfragen mehr mÃ¶glich sind.
+Router : dann wird keine Leigitime Anfragen in/aus des Netzwerk mehr mÃ¶glich
+Switch : wird keine Nachrichten zwischen GerÃ¤ten innerhalb des Netz mehr mÃ¶glich
 
 Angriff auf Ressourcen : eine bestimmte Software/oder Betriebsystem eines Dienstes wird angegriffen durch :
-1- Nachrichten lösen eine allokation/verbrauch auf dem (Queue, Bufferoverflow,Stack) aus, sodass dies überfullt wird und zum Absturz bringt oder keine Verbindung mehr möglich ist.
-2- Nachrichten lösen ein Bug aus sodass die Verfügbarkeit des Dienst abstürzt.
+1- Nachrichten lÃ¶sen eine allokation/verbrauch auf dem (Queue, Bufferoverflow,Stack) aus, sodass dies Ã¼berfullt wird und zum Absturz bringt oder keine Verbindung mehr mÃ¶glich ist.
+2- Nachrichten lÃ¶sen ein Bug aus sodass die VerfÃ¼gbarkeit des Dienst abstÃ¼rzt.
 
 Angriffen auf OSI/ISO :
 
@@ -70,9 +70,9 @@ Angriff auf Phyiska schicht :
 - Scanner jamming
 
 Angriff auf Sicherungsschicht :
-- WLAN deauth Angriff : Angreifer sendet deuth Nachrichten an WLAN, dass AP nicht mehr verfügbar ist
+- WLAN deauth Angriff : Angreifer sendet deuth Nachrichten an WLAN, dass AP nicht mehr verfÃ¼gbar ist
 - MAC-Spoofing : mac-adresse jmd spoofing
--MAC-Flooding : swtich Tabelle mit zufällige geneirte Adressen überfüllen 
+-MAC-Flooding : swtich Tabelle mit zufÃ¤llige geneirte Adressen Ã¼berfÃ¼llen 
 
 Angriff auf Transportschicht :
 - SYN-Flood : 
@@ -80,72 +80,30 @@ Angriff auf Transportschicht :
 2- Der server sendet ein SYN-ACK und wartet auf eine ACK
 3- dies macht der server mit wartezeit insg 63.sekuden
 4- der Angreifer schickt keine Ack, sondern weiter viele SYN
-5- Dadurch wird die SYN-Queue mit Anfragen überfüllt --> DOS 
+5- Dadurch wird die SYN-Queue mit Anfragen Ã¼berfÃ¼llt --> DOS 
 - SYN-Cookie :
 Die SYN-Queue darf keine halboffene Verbindugnen mehr enthalten
 Die Server_isn(32) wird genutzt um die Informationen zu kodieren (als SYN-Cookie) die sonst inder SYN-Queue gespeichert werden.
 Vorteile :
-DOS durch einfaches SYN-Flooding kann abgeschwächt werden
+DOS durch einfaches SYN-Flooding kann abgeschwÃ¤cht werden
 Der Angreifer kann die Absender-Ip Addresse nicht mehr spoofen
-Nachteile : Berechnungen kosten Systemressourcen, reduziert nicht die Menge an Paketetn ,Angriff auf Bandbreite noch möglich
--RESET-Angriff : Angreifer verfälscht den RST-Bit der auf Header der TCP ist, (adressen,ports,sequenznummer)
+Nachteile : Berechnungen kosten Systemressourcen, reduziert nicht die Menge an Paketetn ,Angriff auf Bandbreite noch mÃ¶glich
+-RESET-Angriff : Angreifer verfÃ¤lscht den RST-Bit der auf Header der TCP ist, (adressen,ports,sequenznummer)
 
 Angriffe auf Anwendungsschicht :
-Refelection Angriff : Angreifer sendet eine TCP-Anfrage mit der Adresse des Opfers als gefälschte Adresse an einen Dienst (der auf einem Netzwerkserver Refelektor läuft)
+Refelection Angriff : Angreifer sendet eine TCP-Anfrage mit der Adresse des Opfers als gefÃ¤lschte Adresse an einen Dienst (der auf einem Netzwerkserver Refelektor lÃ¤uft)
 der server antwortet auf die Anfrage und sendet diese ans Opfer weiter
-Amplification Angriff : ist eine besondere Art von Reflection Angriff eine kleine Anfrage (payload) führt zu einer großen Antwort des Reflector 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Amplification Angriff : ist eine besondere Art von Reflection Angriff eine kleine Anfrage (payload) fÃ¼hrt zu einer groÃŸen Antwort des Reflector 
 
 
 Kap.4
 
 VPN : Virtual Pirvate Netzwerk
-ist ein virtuelles verschlüsselte Tunnel zwischen Client und dem Server um es zu verhindern andere deine Internetaktivitäten zu sehen z.b(ISP).
-Bsp : Du bist außerhalb deine Frima und musst dich mit einem VPN verbinden um auf Ressourcen de Firma zuzugreifen.
+ist ein virtuelles verschlÃ¼sselte Tunnel zwischen Client und dem Server um es zu verhindern andere deine InternetaktivitÃ¤ten zu sehen z.b(ISP).
+Bsp : Du bist auÃŸerhalb deine Frima und musst dich mit einem VPN verbinden um auf Ressourcen de Firma zuzugreifen.
 
-Firewall : ist ein software/hardware Systemfilter gegen unrechtmäßigen Zugriffe und Angriffe.
-Prinzip : ungewollte Nachrichten bzw Pakete vom außer der Netzwerk durch basierende definierte Regeln gefiltert.
+Firewall : ist ein software/hardware Systemfilter gegen unrechtmÃ¤ÃŸigen Zugriffe und Angriffe.
+Prinzip : ungewollte Nachrichten bzw Pakete vom auÃŸer der Netzwerk durch basierende definierte Regeln gefiltert.
 
 Pakete Firewall : hier wird der Header des Paketes mit den Regeln verglichen.
 stateful Firewall : hier beocahtet der Firewall die Aktive Verbindungen, wenn es was nicht bekannt auftritt blockiert er es.
@@ -157,9 +115,9 @@ Network Firewall : auf ein gesamte Netzwerk, einfache skalierbarkeit, komplexe K
 
 Netzwerk mit einer DMZ : 
 - Interne Firewall mit strikten Regeln Richtung Demilitarized Zone
-- Externe Firewall emöglicht Zugriff auf öffentliche Dienste 
+- Externe Firewall emÃ¶glicht Zugriff auf Ã¶ffentliche Dienste 
 
-IDS : Intrusion Detection System : ist ein autonomes System, er beobachtet die Netzwerk und löst ein Alarm wenn was ungewollt auftritt.
+IDS : Intrusion Detection System : ist ein autonomes System, er beobachtet die Netzwerk und lÃ¶st ein Alarm wenn was ungewollt auftritt.
 
 IDS besteht aus :
 - Sensor :
@@ -168,7 +126,7 @@ IDS besteht aus :
 
 Sensortypn :
 Host based IDS : 
-verarbeitet Nutzer und Softwareaktivitäten auf einem Host
+verarbeitet Nutzer und SoftwareaktivitÃ¤ten auf einem Host
 auch interne Attacke detektieren
 Hauptquelle : Log files und Zugriffe von Datein
 Network based IDS :
@@ -181,37 +139,33 @@ IDS Analyse Typen :
 
 
 
-
-
-
-
 Kap.5
 
-Sicherheit des Diffie Hellmann-Schlüsselaustausch :
+Sicherheit des Diffie Hellmann-SchlÃ¼sselaustausch :
 - die sicherheit basiert auf dem problems des diskreten Logarithmus
 - bei Primzahl > 3000 bits existiert kein effizienter Angriff 
 
 MitM Angriff auf Diffie Hellmann :
-Problem : woher wissen alic und bob mit wem sie reden ? (beide wissen nichts übereinander)
-Ein Aktiver Angriff : mallory fängt den Schlüsselaustausch ab und erstellt paarweise je einen schlüssel mit alice und Bob.
-- Angreifer kann kommunikation einsehen und ändern
+Problem : woher wissen alic und bob mit wem sie reden ? (beide wissen nichts Ã¼bereinander)
+Ein Aktiver Angriff : mallory fÃ¤ngt den SchlÃ¼sselaustausch ab und erstellt paarweise je einen schlÃ¼ssel mit alice und Bob.
+- Angreifer kann kommunikation einsehen und Ã¤ndern
 - schutz : Authetifizerung bsp : digitale Signaturen 
 
 DH und Zertifikate :
 
 Digitale Zertifikate :
-ein digitales Zertifikat bindet öffentlichen Schlüssel mit einem Merkmal einer Identität durch die Signatur einer vertrauenwürdigen dirtten Entität (dem herausgebers des zertifikats)
+ein digitales Zertifikat bindet Ã¶ffentlichen SchlÃ¼ssel mit einem Merkmal einer IdentitÃ¤t durch die Signatur einer vertrauenwÃ¼rdigen dirtten EntitÃ¤t (dem herausgebers des zertifikats)
 
 Minimale Bestandteile eines Zertifikates :
-- den name der Entität 
-- den öffentlichen Schlüssel der Entität 
+- den name der EntitÃ¤t 
+- den Ã¶ffentlichen SchlÃ¼ssel der EntitÃ¤t 
 - den Namen des Herausgeber
 - die signatur des herausgebers
 
  Cetrification Authority (CA) 
 CA sind ein Teil der sogennaten PKI (public key Infrastructur)
 - CA : stellt zertifikate aus 
-- Registration Autherity (RA) verifiziert dei Echtheit einer Entität 
+- Registration Autherity (RA) verifiziert dei Echtheit einer EntitÃ¤t 
 
 Chain of trust :
 vertrauen muss ich nur in die Zertifikate der Root CA
@@ -220,24 +174,24 @@ vertrauen muss ich nur in die Zertifikate der Root CA
 Kap.6
 
 Ideen zur Anonymisierung :
--Broadcast Kanäle
+-Broadcast KanÃ¤le
 -Mixer
 -Onion Routing 
 
-1- Broadcast Kanäle : 
-- können zur Anonymisierung von Empfängern verwendet werden, es gibt keine Anonymisierung für Sender (mit komplexe Protokolle)
-- ein Sender schickt Nachrichten zu mehreren Empfänger, Angreifer kann den Empfänger nicht identifizieren.
--Problem : skalierbarkeit in großen Netzen, und keine sender Anonymisierung.
+1- Broadcast KanÃ¤le : 
+- kÃ¶nnen zur Anonymisierung von EmpfÃ¤ngern verwendet werden, es gibt keine Anonymisierung fÃ¼r Sender (mit komplexe Protokolle)
+- ein Sender schickt Nachrichten zu mehreren EmpfÃ¤nger, Angreifer kann den EmpfÃ¤nger nicht identifizieren.
+-Problem : skalierbarkeit in groÃŸen Netzen, und keine sender Anonymisierung.
 
 2- Mixer : 
 Grundfunktionen eines Mixers :
-- Duplikate löschen
+- Duplikate lÃ¶schen
 - sammeln
 - umkodieren
 - umsortieren
-- Alle sender und Empfänger sind bekannt, jedoch nicht die Beziehung
-- Zufallszahlen sorgen für schutz gegen Replay-Angriffe
-Herusforderung : es wird ein hohes Vertrauen in den Mix benötigt.
+- Alle sender und EmpfÃ¤nger sind bekannt, jedoch nicht die Beziehung
+- Zufallszahlen sorgen fÃ¼r schutz gegen Replay-Angriffe
+Herusforderung : es wird ein hohes Vertrauen in den Mix benÃ¶tigt.
 
 Mix-Netzwerke :
 Eine Kette von Mixen
@@ -248,19 +202,19 @@ Nachteile von Mixnetwerken :
 
 3- Onion Routing : 
 - randomisierte Routing
-- große Anzahl von Routern mit verschiedern Entitäten
-- Der knote weiß nicht ob der vorgänger ein weitere Router oder der Absender war
+- groÃŸe Anzahl von Routern mit verschiedern EntitÃ¤ten
+- Der knote weiÃŸ nicht ob der vorgÃ¤nger ein weitere Router oder der Absender war
 - Drei Phasen :
 1- Verbindungsaufbau
-2- Datenübertragung
+2- DatenÃ¼bertragung
 3- Datenabbau
 - onion Router arbeiten auf der Applikationsschicht
--jeder Knote kennt nur sein Vorgänger und Nachfolger
-- Tor ist keine Ende-zu-Ende Verschlüsselung 
-- wenn ihr euch auf server einloggt, weiß der server wer ihr seid
+-jeder Knote kennt nur sein VorgÃ¤nger und Nachfolger
+- Tor ist keine Ende-zu-Ende VerschlÃ¼sselung 
+- wenn ihr euch auf server einloggt, weiÃŸ der server wer ihr seid
 - (Entry-Node, Middle-Node, Exit-Node)
 - Entry Nodes kennt eure IP
-- Exit-Nodes können Daten im klartexst mitlesen falls nicht verschlüsselt.
+- Exit-Nodes kÃ¶nnen Daten im klartexst mitlesen falls nicht verschlÃ¼sselt.
 
 Das Darknet / Tor (Hidden Services) :
 Ziel : einen Server betreiben, auf den sich jeder verbinden kann, ohne dabei zu wissen WO der Server steht und WER ihnt besitzt
@@ -270,12 +224,12 @@ Kap.7
 
 TLS
 
-- SSL : Secure Socket Layer, wurde von Netscap entwickelt für schützen der E-Commerce Transaktionen, und wurde von IETF standarisiert und nach Transprt layer Security umbennant.
-- TLS gewährleistet : Verschlüsselung, Authenfizierung, Integrität
-- TLS : benutzt Symmetrische und Asymmetrische Kryptographie Verschlüsselung, also den Schlüssel wird asymmetrisch ausgetauscht, und die Daten werden symmetrisch verschlüsselt.
-- TLS arbeitet auf Applikationslayer und setzt sich direkt über HTTP auf TCP, für UDP existiert auch eine Version namens.
-- TLS mit RSA : es ist problematisch und weist Schwachstellen auf, indem der Angreifer die Verbindung mitschneidet und speichet, dann auf den getauschten Schlüssel drankommen und versucht den RSA zu knacken
-- Lösung : TLS mit DH (empheral oder anonym) TLS mit DH-Algorithm erreicht der PFS perfect Forward Secrecy
+- SSL : Secure Socket Layer, wurde von Netscap entwickelt fÃ¼r schÃ¼tzen der E-Commerce Transaktionen, und wurde von IETF standarisiert und nach Transprt layer Security umbennant.
+- TLS gewÃ¤hrleistet : VerschlÃ¼sselung, Authenfizierung, IntegritÃ¤t
+- TLS : benutzt Symmetrische und Asymmetrische Kryptographie VerschlÃ¼sselung, also den SchlÃ¼ssel wird asymmetrisch ausgetauscht, und die Daten werden symmetrisch verschlÃ¼sselt.
+- TLS arbeitet auf Applikationslayer und setzt sich direkt Ã¼ber HTTP auf TCP, fÃ¼r UDP existiert auch eine Version namens.
+- TLS mit RSA : es ist problematisch und weist Schwachstellen auf, indem der Angreifer die Verbindung mitschneidet und speichet, dann auf den getauschten SchlÃ¼ssel drankommen und versucht den RSA zu knacken
+- LÃ¶sung : TLS mit DH (empheral oder anonym) TLS mit DH-Algorithm erreicht der PFS perfect Forward Secrecy
 
 TLS-Protokoll Familie :
 1- Handshake Protokoll
@@ -283,7 +237,7 @@ TLS-Protokoll Familie :
 3- Alert-Protokoll
 4- Rekord Protokoll
 
-TLS-Handshake im Überblick
+TLS-Handshake im Ãœberblick
 
 phase 1: 
 Client : HelloClient
@@ -304,7 +258,7 @@ Client : Finish
 Server : Change-Cipher-Spec
 Server : Finish
 
-Algorithmus zum Schlüsselaustausch :
+Algorithmus zum SchlÃ¼sselaustausch :
  RSA ,Anonymous DH, Ephemeral DH, Fixed DH,
 
 Welche Authentifizierung stattfinden soll ?
@@ -331,22 +285,22 @@ b- Downgrade : FREAK Attack
 ausnutzung inder sogennaten FREAK (Factoring RSA Export Keys)
 
 c- Angriffe auf Cipher Suites / Kryptographie : 
-  - poodle Attack : padding oracle Angriff auf CBC-basierte Verschlüsselungsalgorithmus in SSL.v3
+  - poodle Attack : padding oracle Angriff auf CBC-basierte VerschlÃ¼sselungsalgorithmus in SSL.v3
 
 2- Angriffe auf Implementierung :
 
-a- Heartbeet : sende einen heartbeet um zu überprüfen ob die Gegenstelle noch zu erreichen ist, um einen Timeout zu verhindern
-- client :schick mir das wort "vogel" mit der länge 5 Bytes
+a- Heartbeet : sende einen heartbeet um zu Ã¼berprÃ¼fen ob die Gegenstelle noch zu erreichen ist, um einen Timeout zu verhindern
+- client :schick mir das wort "vogel" mit der lÃ¤nge 5 Bytes
 -server : "Vogel"
 
-Heartbleed-Schwachstelle detaliert erklären :
+Heartbleed-Schwachstelle detaliert erklÃ¤ren :
 
 
 Kap.9
 
 Stack,Heap und Segmente :
 
--Text : Ausführbarer Code des Programms
+-Text : AusfÃ¼hrbarer Code des Programms
 -Data : initialisierte Variablen
 -BSS : Nicht initialisierte Variablen
 
@@ -355,39 +309,39 @@ Heap : dynamischer Speicher
 Stack : Funktionsaufruf
 - lokale variablen, argumente ,adressen
 
-Bufferoverflow :  ein Buffer overflow tritt auf, wenn mehr Daten in einen Speicherbereich geschrieben werden, asl dieser eigentlich aufnehmen kannm, und dabei der Speicherbreich nebenan überschrieben wird.
+Bufferoverflow :  ein Buffer overflow tritt auf, wenn mehr Daten in einen Speicherbereich geschrieben werden, asl dieser eigentlich aufnehmen kannm, und dabei der Speicherbreich nebenan Ã¼berschrieben wird.
 
 Aufbau eines Speicherbereichs : ein typischer speicherbreich besthet aus, Stack, Heap, Code und Datenbreich.
 
-Methoden zur Ausnutzung : Angreifer können durch das Überschreiben der Return Adresse, das Einschluesen von Shellcode und andere Techniken einen Buffer Overflow ausnutzen.
+Methoden zur Ausnutzung : Angreifer kÃ¶nnen durch das Ãœberschreiben der Return Adresse, das Einschluesen von Shellcode und andere Techniken einen Buffer Overflow ausnutzen.
 
-Schadecode Einschluesen : Angreifer kann bösartigen Code einschleusen, indem er die Knotrolle über die Programm-Ausführung übernimmt.
+Schadecode Einschluesen : Angreifer kann bÃ¶sartigen Code einschleusen, indem er die Knotrolle Ã¼ber die Programm-AusfÃ¼hrung Ã¼bernimmt.
 
 
 Kap.10
 
-Maßnahmen gegen Bufferoverflow :
+MaÃŸnahmen gegen Bufferoverflow :
 
-1- programmierung mit inhärten checks
+1- programmierung mit inhÃ¤rten checks
 2- Angepaaste Funktionen inder Programmierung bspw.(strncpy)
 3- Statische Analyse des Codes
-4- Compiler (stack Canarie) : ein randomisierte Wert außerhalb des Stacks einsetzen, wenn Angreifer versucht den Speicherbereich zu überschreiben, dann wird der Canary auch verändert und dadruch erkennt der Compiler dass es um eine Angriff geht, so beendet er die Ausführung des Programms.
-5- BS(ASLR) : Adress Space Layout Randamasation : Alle Speicherbereiche der Prozesse randomisierte ( so wird es schweierig die Rücksprung adresse zu raten)
-6- Hardware Architektur : NX-Bit : ist harware basiert durch ein bestimmten Bit einsetzen ob der speicehrberiehc zu ausführen ist oder nicht. (Verhindert die Ausführung von unvertraute speicherbereiche).
+4- Compiler (stack Canarie) : ein randomisierte Wert auÃŸerhalb des Stacks einsetzen, wenn Angreifer versucht den Speicherbereich zu Ã¼berschreiben, dann wird der Canary auch verÃ¤ndert und dadruch erkennt der Compiler dass es um eine Angriff geht, so beendet er die AusfÃ¼hrung des Programms.
+5- BS(ASLR) : Adress Space Layout Randamasation : Alle Speicherbereiche der Prozesse randomisierte ( so wird es schweierig die RÃ¼cksprung adresse zu raten)
+6- Hardware Architektur : NX-Bit : ist harware basiert durch ein bestimmten Bit einsetzen ob der speicehrberiehc zu ausfÃ¼hren ist oder nicht. (Verhindert die AusfÃ¼hrung von unvertraute speicherbereiche).
 
-BS : ist eine zusammenstellung von Computerprogrammen, die Systemressourcen der Compuer (festplatte,CPU) mitden Ein/AUS Geräten verwaltet.  
+BS : ist eine zusammenstellung von Computerprogrammen, die Systemressourcen der Compuer (festplatte,CPU) mitden Ein/AUS GerÃ¤ten verwaltet.  
 
 Ringe(CPU) :
 der ring ist die sicherheitstufe des Programmscodes.
 
 Kernel und User-Space :
 Zugriff auf Hardware /Speicher nur aus Ring 0
-Über System-Call kann eine Applikation auf bestimmte Ressourcen zugreifen.
+Ãœber System-Call kann eine Applikation auf bestimmte Ressourcen zugreifen.
 Es gibt Ring0, Ring1, Ring2, Ring3 
 
 Trusted Computing Base Reference Monitor :
 
-TCB : enthält alle Komponente welche im Fall einer Sicherhetislücke das gesamte System gefährden :
+TCB : enthÃ¤lt alle Komponente welche im Fall einer SicherhetislÃ¼cke das gesamte System gefÃ¤hrden :
 
 - Hardware 
 - Firmware 
@@ -395,41 +349,32 @@ TCB : enthält alle Komponente welche im Fall einer Sicherhetislücke das gesamte 
 
 Seitenkanalangriffe :
 - Informationslecks durch Eigenschaften der Hardware. bsp :
-1- Ausführungszeiten eines Algorithmus
+1- AusfÃ¼hrungszeiten eines Algorithmus
 2- Stromverbrauch von Hardware
 3- Zugriffzeiten in CPU
-
-
-
-
-
-
-
-
-
 
 
 Kap.11
 
 Identifikation & Authentifikation
 
-Um die Vertraulichekeit zu gewährleistet muss den Bentuzer authentifiziert werden durch :
+Um die Vertraulichekeit zu gewÃ¤hrleistet muss den Bentuzer authentifiziert werden durch :
 
-- Persönliche Merkmale
+- PersÃ¶nliche Merkmale
 - Wissen
 - Besitz 
 
-Passwörter : muss großer 12 Zeichen, randomisiert, keine persönliche Daten beinhalten (name,geburtsdatum)
-Angriffe auf Passwörter : Brutforce (wörterbuch Angriffe ) ist eine umfangreiche Liste von Passwörter.
+PasswÃ¶rter : muss groÃŸer 12 Zeichen, randomisiert, keine persÃ¶nliche Daten beinhalten (name,geburtsdatum)
+Angriffe auf PasswÃ¶rter : Brutforce (wÃ¶rterbuch Angriffe ) ist eine umfangreiche Liste von PasswÃ¶rter.
 
-Salt : neben das gehashte Passwort wird ein zufälliger gehashter wert dazu hinzugrfügt (salting) und dem passwort in einem Datei gepeichert, dient dazu gegen Brutforce Angriffe deutlich zu erschweren.
+Salt : neben das gehashte Passwort wird ein zufÃ¤lliger gehashter wert dazu hinzugrfÃ¼gt (salting) und dem passwort in einem Datei gepeichert, dient dazu gegen Brutforce Angriffe deutlich zu erschweren.
 
-Persönliche Merkmale : 
+PersÃ¶nliche Merkmale : 
 1) Verhalten : stimme, unterschrift, gehen
 2) phyiskalische : Fingerabdruck, Iris, Gesicht
 
 Wissen :
-Benutzer weiß etwas über den er sich authentifizieren kann (passwort, anmelddaten)
+Benutzer weiÃŸ etwas Ã¼ber den er sich authentifizieren kann (passwort, anmelddaten)
 
 Besitz : Benutzer hat etwas :
 1- TOTP : Time Based One Time Password, einmales authentifiziereung passwort kann auf handy installiert werden, ist eine erweiterung von HOTP
@@ -440,11 +385,11 @@ Besitz : Benutzer hat etwas :
 Wissen + Besitz : Bankkarte und passwort
 Besitz + Merkmale : Karte und Iris
 
-Two-Step-Verification : bestätigung des Nutzers über einen zweiten unabhängigen Kanal
+Two-Step-Verification : bestÃ¤tigung des Nutzers Ã¼ber einen zweiten unabhÃ¤ngigen Kanal
 
 
 Kerberos Protokoll :
-- Authenfizierung Protokoll in großen lokalen Netzwerke 
+- Authenfizierung Protokoll in groÃŸen lokalen Netzwerke 
 - Wird verwendet um Benutzer auf Ressourcen zu authentifizieren durch Tickets
 - verwendet die Symmetrische Kryptographie
 - Zentralisierung der Authenfizierung auf einem Server 
@@ -454,33 +399,33 @@ Ablauf :
 Nutzer : schickt eine die username und service = TGS
 Authentication Server AS : schickt ihm eine TGS-Ticket
 Nutzer : schickt zum TGS Server die TGS-Ticket 
-TGS : schickt ihm eine Service-Ticket zurück
+TGS : schickt ihm eine Service-Ticket zurÃ¼ck
 Nutzer : schickt zum Datei-Server die Service-Ticket
 Kap.12 
 
-- Acess Control : Prozess durch den die Nutzung von Systemressourcen gemäß einer sicherheitslinie geregelt ist und Zugriff nur von autorisierten Identitäen (Benutzer,Prozesse,Programme) gemäß dieser Richtlinie ist.
+- Acess Control : Prozess durch den die Nutzung von Systemressourcen gemÃ¤ÃŸ einer sicherheitslinie geregelt ist und Zugriff nur von autorisierten IdentitÃ¤en (Benutzer,Prozesse,Programme) gemÃ¤ÃŸ dieser Richtlinie ist.
 
-- Subjekte : Identiäten welche auf ein Objekt zugreifen können
-- Objekte : ressourcen mit beschränkten Zugriffsrechten (datein,programme,ports)
--rechte : beschreiben auf welche Art der Zugriff erfolgen kann (lesen, schreiben, ausführen)
+- Subjekte : IdentiÃ¤ten welche auf ein Objekt zugreifen kÃ¶nnen
+- Objekte : ressourcen mit beschrÃ¤nkten Zugriffsrechten (datein,programme,ports)
+-rechte : beschreiben auf welche Art der Zugriff erfolgen kann (lesen, schreiben, ausfÃ¼hren)
 
--Herausfoderung für Zugriffskontroll :
+-Herausfoderung fÃ¼r Zugriffskontroll :
 1) Authentifizerung : wer bin ich ?
 2) Authorisierung : was darf ich ?
 
-- verschiedene mögliche Instruktionen für einen Zugriff auf ein Objekt :
+- verschiedene mÃ¶gliche Instruktionen fÃ¼r einen Zugriff auf ein Objekt :
 1- execute
 2- append
 3- write
 4- read
 
 - Access Controll Arten :
-DAC : Disrectionary Access Control : fokus auf Eigentümer gut geeignet inden meisten fällen für strenge Regeln (Militär, Krankenhäuser)
+DAC : Disrectionary Access Control : fokus auf EigentÃ¼mer gut geeignet inden meisten fÃ¤llen fÃ¼r strenge Regeln (MilitÃ¤r, KrankenhÃ¤user)
 MAC : Mandatory Access Control : fokus auf System/Admin 
 
 Sicherheitsmodelle :
 1- Bell-LaPadula Modell :Vertraulichkeit No read Up, no Write Down
-2- Biba Model : Integrität, No Write Up, No Read Down
+2- Biba Model : IntegritÃ¤t, No Write Up, No Read Down
 
 
 Kap.13
@@ -488,7 +433,7 @@ Virtualisierung
 
 Vorteile von Virtualisierung :
 1- Kosteneinsparung : energie,Wartung,Hardware
-2- Flexibilität
+2- FlexibilitÃ¤t
 3- Isolation
 4- SoftwareEnwicklung
 
@@ -500,26 +445,27 @@ Virtualisierungsarten :
 - Typ3 : Hadware-Hybervisor-HostOS-ContainerEngine-Container
 
 HyberVisor Anforderungen :
-1- Sicherheit : sollte vollständige Kontrolle über die Ressourcen haben
+1- Sicherheit : sollte vollstÃ¤ndige Kontrolle Ã¼ber die Ressourcen haben
 2- Genauigkeit : Das Verhalten eines Programms inder Virtuellen Maschine, sollte identisch zum Verhalten auf einem realen System sein
-3- Effizenz  : Möglichst viel Code inder virtuellen Maschine sollte ohne Intervention des Hypervisors laufen
+3- Effizenz  : MÃ¶glichst viel Code inder virtuellen Maschine sollte ohne Intervention des Hypervisors laufen
 
 VM-Escape : Aus der VM Zugriff auf das Host-System oder andere VMs bekommen
 
 Kap.14
 Security Enginnering
 
-Securtiy Enginnering : ein Prozess, um die Realisierung sicherer Systeme zu ermöglichen
+Securtiy Enginnering : ein Prozess, um die Realisierung sicherer Systeme zu ermÃ¶glichen
 
 IT-Grundschutz Kompendium :
 - es exisitieren verschiedene standards und Zertifizierungen
 - eine zertifizierung bietet ein systematisches Vorgehen zur Absicherung von Systemen
-- eine Zertifizierung ist keine Garantie für ein sicheres System.
+- eine Zertifizierung ist keine Garantie fÃ¼r ein sicheres System.
 
-Härten : ein prozess, der dazu dient, eine Angriffsmöglichkeit zu reduzieren, indem Schwachstellen gepatcht und nicht benötigte Dienste abgeschaltet werden.
+HÃ¤rten : ein prozess, der dazu dient, eine AngriffsmÃ¶glichkeit zu reduzieren, indem Schwachstellen gepatcht und nicht benÃ¶tigte Dienste abgeschaltet werden.
 
 Ein paar allgemeine Prinzipen des Security Enginnering :
-- Security by Design : während software des Programm um IT-Sicherheit kümmern
-- Security by Default : während definierten des Produkts z.b bei lieferung eines routers das standard passwort ändern
-- Kerchoff’sche Prinzip : je weniger geheimnisse ein krypto-system braucht, desto robuster ist es
+- Security by Design : wÃ¤hrend software des Programm um IT-Sicherheit kÃ¼mmern
+- Security by Default : wÃ¤hrend definierten des Produkts z.b bei lieferung eines routers das standard passwort Ã¤ndern
+- KerchoffÂ’sche Prinzip : je weniger geheimnisse ein krypto-system braucht, desto robuster ist es
 - Linus law :
+
